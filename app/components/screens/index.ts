@@ -1,0 +1,7 @@
+export * from './auth'
+export * from './home/Home'
+export * from './more/More'
+export * from './payments/Payments'
+export * from './profile'
+export * from './services/Services'
+export * from './support/Support'
