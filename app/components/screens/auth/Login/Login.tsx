@@ -64,13 +64,6 @@ const Login: FC<LoginProps> = ({ setIsRegistered, isRegistered }) => {
               onChange={handlePasswordChange}
             />
             <Button title="Log in" className="mt-5" onPress={handleLogin} />
-            <Button
-              title="Log in as Matvii"
-              className="mt-10"
-              onPress={async () => {
-                await login('test@gmail.com', '123123')
-              }}
-            />
           </View>
 
           <Link title="Create an account!" onPress={handleLinkPress} />
